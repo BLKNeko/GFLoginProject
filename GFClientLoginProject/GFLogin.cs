@@ -4,9 +4,9 @@ using System.Text;
 
 namespace GFClientLoginProject
 {
-    public partial class Form1 : Form
+    public partial class GFLogin : Form
     {
-        public Form1()
+        public GFLogin()
         {
             InitializeComponent();
             // Carregar as credenciais salvas ao abrir o formulário

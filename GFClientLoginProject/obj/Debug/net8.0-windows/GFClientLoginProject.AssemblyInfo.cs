@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GFClientLoginProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+325776c3a676a438c734cb6219a247c93780b013")]
 [assembly: System.Reflection.AssemblyProductAttribute("GFClientLoginProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GFClientLoginProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

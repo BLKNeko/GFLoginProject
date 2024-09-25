@@ -1,6 +1,6 @@
 ﻿namespace GFClientLoginProject
 {
-    partial class Form1
+    partial class GFLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GFLogin));
             btnExecutar = new Button();
             txtLogin = new TextBox();
             txtSenha = new TextBox();
@@ -39,17 +40,22 @@
             // 
             // btnExecutar
             // 
-            btnExecutar.Font = new Font("HanWangYenHeavy", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 136);
+            btnExecutar.BackColor = Color.DarkOrange;
+            btnExecutar.FlatAppearance.BorderColor = Color.Chocolate;
+            btnExecutar.FlatAppearance.BorderSize = 8;
+            btnExecutar.Font = new Font("HanWangYenHeavy", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 136);
+            btnExecutar.ForeColor = SystemColors.ControlText;
             btnExecutar.Location = new Point(43, 342);
             btnExecutar.Name = "btnExecutar";
             btnExecutar.Size = new Size(285, 54);
             btnExecutar.TabIndex = 0;
             btnExecutar.Text = "Automatic Login";
-            btnExecutar.UseVisualStyleBackColor = true;
+            btnExecutar.UseVisualStyleBackColor = false;
             btnExecutar.Click += btnExecutar_Click;
             // 
             // txtLogin
             // 
+            txtLogin.BackColor = Color.Bisque;
             txtLogin.Font = new Font("HanWangYenHeavy", 9F, FontStyle.Regular, GraphicsUnit.Point, 136);
             txtLogin.Location = new Point(43, 224);
             txtLogin.Name = "txtLogin";
@@ -60,6 +66,7 @@
             // 
             // txtSenha
             // 
+            txtSenha.BackColor = Color.Bisque;
             txtSenha.Font = new Font("HanWangYenHeavy", 9F, FontStyle.Regular, GraphicsUnit.Point, 136);
             txtSenha.Location = new Point(43, 269);
             txtSenha.Name = "txtSenha";
@@ -82,13 +89,14 @@
             // 
             // ManualLogin
             // 
+            ManualLogin.BackColor = Color.Bisque;
             ManualLogin.Font = new Font("HanWangYenHeavy", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 136);
             ManualLogin.Location = new Point(43, 402);
             ManualLogin.Name = "ManualLogin";
             ManualLogin.Size = new Size(285, 26);
             ManualLogin.TabIndex = 4;
             ManualLogin.Text = "Manual Login";
-            ManualLogin.UseVisualStyleBackColor = true;
+            ManualLogin.UseVisualStyleBackColor = false;
             ManualLogin.Click += ManualLogin_Click;
             // 
             // SVPassCB
@@ -104,7 +112,7 @@
             SVPassCB.Text = "Salvar senha";
             SVPassCB.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // GFLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -117,8 +125,10 @@
             Controls.Add(txtSenha);
             Controls.Add(txtLogin);
             Controls.Add(btnExecutar);
-            Name = "Form1";
-            Text = "Form1";
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            Name = "GFLogin";
+            Text = "GFLogin";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

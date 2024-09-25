@@ -3,7 +3,6 @@ A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClient
 A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\bin\Debug\net8.0-windows\GFClientLoginProject.runtimeconfig.json
 A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\bin\Debug\net8.0-windows\GFClientLoginProject.dll
 A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\bin\Debug\net8.0-windows\GFClientLoginProject.pdb
-A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\obj\Debug\net8.0-windows\GFClientLoginProject.Form1.resources
 A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\obj\Debug\net8.0-windows\GFClientLoginProject.csproj.GenerateResource.cache
 A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\obj\Debug\net8.0-windows\GFClientLoginProject.GeneratedMSBuildEditorConfig.editorconfig
 A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\obj\Debug\net8.0-windows\GFClientLoginProject.AssemblyInfoInputs.cache
@@ -16,3 +15,5 @@ A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClient
 A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\obj\Debug\net8.0-windows\ref\GFClientLoginProject.dll
 A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\obj\Debug\net8.0-windows\GFClientLoginProject.Properties.Resources.resources
 A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\bin\Debug\net8.0-windows\GFClientLoginProject.dll.config
+A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\obj\Debug\net8.0-windows\GFClientLoginProject.sourcelink.json
+A:\GAMESALPHA\GrandFantasia Server Files\GF Projects\ClientLoginProject\GFClientLoginProject\GFClientLoginProject\obj\Debug\net8.0-windows\GFClientLoginProject.GFLogin.resources

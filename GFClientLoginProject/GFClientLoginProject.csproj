@@ -6,13 +6,20 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>GFIcon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="GFIcon.ico" />
     <None Remove="Resources\GFWP.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="GFIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="GFIcon.ico" />
     <EmbeddedResource Include="Resources\GFWP.jpg" />
   </ItemGroup>
 
