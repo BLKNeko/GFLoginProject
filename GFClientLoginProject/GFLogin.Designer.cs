@@ -49,7 +49,7 @@
             btnExecutar.Name = "btnExecutar";
             btnExecutar.Size = new Size(285, 54);
             btnExecutar.TabIndex = 0;
-            btnExecutar.Text = "Automatic Login";
+            btnExecutar.Text = "Auto Login";
             btnExecutar.UseVisualStyleBackColor = false;
             btnExecutar.Click += btnExecutar_Click;
             // 
@@ -95,7 +95,7 @@
             ManualLogin.Name = "ManualLogin";
             ManualLogin.Size = new Size(285, 26);
             ManualLogin.TabIndex = 4;
-            ManualLogin.Text = "Manual Login";
+            ManualLogin.Text = "In-Game Login";
             ManualLogin.UseVisualStyleBackColor = false;
             ManualLogin.Click += ManualLogin_Click;
             // 
@@ -107,9 +107,9 @@
             SVPassCB.ForeColor = Color.White;
             SVPassCB.Location = new Point(43, 297);
             SVPassCB.Name = "SVPassCB";
-            SVPassCB.Size = new Size(109, 16);
+            SVPassCB.Size = new Size(124, 16);
             SVPassCB.TabIndex = 5;
-            SVPassCB.Text = "Salvar senha";
+            SVPassCB.Text = "Save Password";
             SVPassCB.UseVisualStyleBackColor = false;
             // 
             // GFLogin

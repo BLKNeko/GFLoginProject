@@ -55,11 +55,12 @@ namespace GFClientLoginProject
 
             // Conteúdo do script .bat (insira aqui o conteúdo do seu .bat)
             string batScript = "@echo off\n" +
-                               "A:\n" +
-                               "cd\\GAMESALPHA\\GrandFantasia Server Files\\074\\Ultimate\\ \n " +
-                               "start GrandFantasia.exe EasyFun -a %1 -p %2 \n"; //+
-                               //"echo Parametros recebidos: %1 %2 \n" +
-                               //"pause";
+                               "start GrandFantasia.exe EasyFun -a %1 -p %2 \n";
+            //"A:\n" +
+            //"cd\\GAMESALPHA\\GrandFantasia Server Files\\074\\Ultimate\\ \n " +
+            //"start GrandFantasia.exe EasyFun -a %1 -p %2 \n"; //+
+            //"echo Parametros recebidos: %1 %2 \n" +
+            //"pause";
 
             // Caminho temporário para criar o arquivo .bat em tempo de execução
             string tempBatPath = Path.Combine(Path.GetTempPath(), "tempScript.bat");
@@ -141,9 +142,10 @@ namespace GFClientLoginProject
 
             // Conteúdo do script .bat (insira aqui o conteúdo do seu .bat)
             string batScript = "@echo off\n" +
-                               "A:\n" +
-                               "cd\\GAMESALPHA\\GrandFantasia Server Files\\074\\Ultimate\\ \n " +
                                "start GrandFantasia.exe EasyFun";
+            //"A:\n" +
+            //"cd\\GAMESALPHA\\GrandFantasia Server Files\\074\\Ultimate\\ \n " +
+            //"start GrandFantasia.exe EasyFun";
 
 
             // Caminho temporário para criar o arquivo .bat em tempo de execução
@@ -165,10 +167,13 @@ namespace GFClientLoginProject
                 process.WaitForExit(); // Aguarda o processo terminar
 
                 //MessageBox.Show("Comando executado com sucesso.");
+
+                // Encerra o programa, já que tudo correu bem
+                Application.Exit();
             }
             catch (Exception ex)
             {
-                //MessageBox.Show($"Erro ao executar o comando: {ex.Message}");
+                MessageBox.Show($"Erro ao executar o comando: {ex.Message}");
             }
             finally
             {
